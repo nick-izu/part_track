@@ -504,7 +504,7 @@ lengthCorrelatedAperture: {5e-5, 0.5}
      given by k=(b^2)/12, where b is an aperture and k is permeability
     1: Constant permeabilty for all fractures */
 
-permOption: 0  //See above for options
+permOption: 1  //See above for options
 
 constantPermeability: 2.5e-13  //Constant permeability for all fractures 
 
