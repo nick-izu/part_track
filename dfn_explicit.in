@@ -72,7 +72,7 @@ END
 
 #=========================== times ============================================
 TIME
-  INITIAL_TIME  1.0d-4 y
+  INITIAL_TIMESTEP_SIZE  1.0d-4 y
   FINAL_TIME 30.0d0 y
   MAXIMUM_TIMESTEP_SIZE 1.0d-2 y
   STEADY_STATE
