@@ -11,16 +11,6 @@ SIMULATION
   /
 END
 SUBSURFACE
-
-CHEMISTRY
-  PRIMARY_SPECIES
-    TRACER
-  /
-  OUTPUT
-    TOTAL
-    TRACER
-  /
-
 DFN
 
 #=========================== discretization ===================================
