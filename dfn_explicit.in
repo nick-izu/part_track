@@ -12,6 +12,15 @@ SIMULATION
 END
 SUBSURFACE
 
+CHEMISTRY
+  PRIMARY_SPECIES
+    TRACER
+  /
+  OUTPUT
+    TOTAL
+    TRACER
+  /
+
 DFN
 
 #=========================== discretization ===================================
@@ -67,14 +76,16 @@ OUTPUT
   VARIABLES
     LIQUID_PRESSURE
     PERMEABILITY
+    LIQUID_MOLE_FRACTIONS 
+    LIQUID_MASS_FRACTIONS
   /
 END
 
 #=========================== times ============================================
 TIME
   INITIAL_TIMESTEP_SIZE  1.0d-6 s
-  FINAL_TIME 30000000.0d0 s
-  MAXIMUM_TIMESTEP_SIZE 1.0d-4 s
+  FINAL_TIME 1.d0 d
+  MAXIMUM_TIMESTEP_SIZE 10.d0 d
   STEADY_STATE
 END
 
